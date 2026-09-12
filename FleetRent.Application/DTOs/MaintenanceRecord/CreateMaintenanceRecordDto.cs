@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FleetRent.Application.DTOs.MaintenanceRecord
+namespace FleetRent.Application.DTOs.MaintenanceRecord;
+
+public class CreateMaintenanceRecordDto
 {
-    internal class CreateMaintenanceRecordDto
-    {
-    }
+    public int CarId { get; set; }
+    public string Description { get; set; }
+    public DateTime StartDate { get; set; }
+    public decimal Cost { get; set; }
 }

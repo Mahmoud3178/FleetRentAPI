@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace FleetRent.Application.DTOs.CarCategory
 {
-    internal class CreateCarCategoryDto
+    public class CreateCarCategoryDto
     {
+        public string Name { get; set; }
+        public decimal DailyRate { get; set; }
     }
 }

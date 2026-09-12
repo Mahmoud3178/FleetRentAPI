@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FleetRent.Application.DTOs.Branch
 {
-    internal class CreateBranchDto
+    public class CreateBranchDto
     {
+        public string Name { get; set; }
+        public string City { get; set; }
+        public string Address { get; set; }
     }
 }

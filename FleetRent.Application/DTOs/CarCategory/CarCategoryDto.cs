@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FleetRent.Application.DTOs.CarCategory
 {
-    internal class CarCategoryDto
+    public class CarCategoryDto
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public decimal DailyRate { get; set; }
     }
 }

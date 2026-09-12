@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FleetRent.Application.DTOs.Booking
+namespace FleetRent.Application.DTOs.Booking;
+
+public class BookingDto
 {
-    internal class BookingDto
-    {
-    }
+    public int Id { get; set; }
+    public int CustomerId { get; set; }
+    public string CustomerName { get; set; }
+    public int CarId { get; set; }
+    public string CarPlateNumber { get; set; }
+    public DateTime StartDate { get; set; }
+    public DateTime EndDate { get; set; }
+    public string Status { get; set; }
+    public decimal EstimatedCost { get; set; }
 }

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FleetRent.Application\FleetRent.Application.csproj" />
     <ProjectReference Include="..\FleetRent.Domain\FleetRent.Domain.csproj" />
     <ProjectReference Include="..\FleetRent.Shared\FleetRent.Shared.csproj" />
   </ItemGroup>
